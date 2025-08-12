@@ -5,8 +5,8 @@ import Navbar from "./_components/Navbar";
 import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
-  title: "Raffles",
-  description: "Raffles Dashboard",
+  title: "Indosukuk",
+  description: "Indosukuk Dapp",
 };
 
 export default function RootLayout({
