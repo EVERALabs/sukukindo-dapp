@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "../styles/index.css";
 
-import Navbar from "./_components/Navbar";
+import Header from "./_components/Header";
 import Footer from "./_components/Footer";
+import { ClientProviders } from "./_providers/ClientProviders";
 
 export const metadata: Metadata = {
   title: "Indosukuk",
@@ -15,12 +16,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body>
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+    <html lang="en">
+      <ClientProviders>
+        <body>
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </ClientProviders>
     </html>
   );
 }

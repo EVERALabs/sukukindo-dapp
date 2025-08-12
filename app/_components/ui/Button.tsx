@@ -9,7 +9,7 @@ export function PrimaryButton({
     return (
         <button
             className={cn(
-                "bg-primary uppercase text-primary-foreground hover:bg-primary/60 ring-offset-background focus-visible:ring-ring inline-flex h-[34px] min-w-[100px] cursor-pointer items-center justify-center gap-2 px-4 py-2 text-sm font-semibold text-nowrap transition-all duration-300 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0",
+                "bg-[#0E1016] text-primary-foreground hover:bg-primary/60 ring-offset-background focus-visible:ring-ring inline-flex h-[34px] min-w-[100px] cursor-pointer items-center justify-center gap-2 px-4 py-2 text-sm font-semibold text-nowrap transition-all duration-300 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 rounded-full",
                 className,
             )}
             type={type}
@@ -29,7 +29,7 @@ export function SecondaryButton({
     return (
         <button
             className={cn(
-                "bg-secondary text-secondary-foreground hover:bg-secondary/60 ring-offset-background focus-visible:ring-ring inline-flex h-[34px] min-w-[100px] cursor-pointer items-center justify-center gap-2 px-4 py-2 text-sm text-nowrap transition-all duration-300 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:shrink-0",
+                "bg-secondary text-secondary-foreground hover:bg-secondary/60 ring-offset-background focus-visible:ring-ring inline-flex h-[34px] min-w-[100px] cursor-pointer items-center justify-center gap-2 px-4 py-2 text-sm text-nowrap transition-all duration-300 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 rounded-lg",
                 className,
             )}
             type={type}
