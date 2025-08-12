@@ -1,0 +1,16 @@
+@theme inline {
+  --color-foreground: #FFFFFF;
+  --color-background: #0B0B0B;
+
+  --font-dm-sans-regular: "Kode Mono", 400, sans-serif;
+  --font-dm-sans-semibold: "Kode Mono", 500, sans-serif;
+  --font-dm-sans-bold: "Kode Mono", 700, sans-serif;
+
+  --color-base-light: #FFFFFF;
+  --color-base-dark: #1A1A1A;
+  --color-base-dark-secondary: #171616;
+  --color-base-border: #212121;
+  --color-base-placeholder: #484848;
+
+  --color-primary: #FF7300;
+}
