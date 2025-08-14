@@ -1,4 +1,5 @@
-import { indoSukukBondAbi, allowedTokenAbi } from "./abi";
+import { indoSukukBondAbi } from "../app/_libs/_abi/indoSukukBondAbi";
+import { allowedTokenAbi } from "../app/_libs/_abi/allowedTokenAbi";
 import { IndoSukukBondAddress, AllowedTokenAddress } from "./contractAddress";
 
 export const indoSukukBondContractConfig = {
